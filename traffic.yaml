@@ -1,0 +1,13 @@
+# YOLOv8/YOLOv9 Veri Seti Konfigürasyonu
+
+# Resimlerin ve etiketlerin olduğu ana klasör
+path: ./my_traffic_data
+
+# Eğitim, Doğrulama ve TEST verilerinin yolları
+train: images/train
+val: images/val
+test: images/test
+
+# Sınıf Bilgileri
+nc: 4
+names: ['Otomobil', 'Otobus', 'Kamyon' ,'Motosiklet'] # Büyük harfle başlayacak şekilde düzeltildi

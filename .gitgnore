@@ -1,0 +1,31 @@
+# 🚫 DATASET & OUTPUT (ASLA GIT'E GİRMEYECEK)
+my_traffic_data/
+runs/
+weights/
+videolar/
+auto_label_results/
+data/
+dataset/
+images/
+labels/
+results/
+
+# 🚫 BÜYÜK DOSYALAR
+*.pt
+*.onnx
+*.h5
+*.pkl
+*.zip
+*.rar
+*.7z
+*.mp4
+*.avi
+*.mov
+*.csv
+*.npy
+
+# 🚫 PYTHON ÇÖPLERİ
+__pycache__/
+*.pyc
+.venv/
+.env
